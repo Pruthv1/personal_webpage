@@ -1,0 +1,122 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+
+body {
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+.full{
+    width:100%;
+    height:100%;
+    margin: 0;
+    display: table;
+}
+
+.blue {
+    margin: 0;
+    width: 66%;
+    height:100%;
+    background: #293e6a;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.whiteG {
+    margin: 0;
+    width: 0.5%;
+    background:	#990000;
+    height:100%;
+    display: table-cell;
+}
+
+.whiteOR1, .whiteOR2 {
+    margin: 0;
+    width: 0.25%;
+    background: white;
+    height:100%;
+    display: table-cell;
+}
+
+.grey {
+    margin: 0;
+    width: 33%;
+    height:100%;
+    background: #202020;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.right {
+    margin: 0;
+    float: right;
+    font-size: 6vw;
+    letter-spacing: 0;
+}
+
+.rightTe {
+    margin: 0;
+    float: right;
+    font-size: 2.5vw;
+}
+
+.right a {
+    padding-right: 7px;
+}
+
+.left {
+    float: left;
+    font-size: 3vw;
+    letter-spacing: 0;
+}
+
+.leftTe {
+    float: left;
+    font-size: 1.5vw
+}
+
+.leftTe a {
+}
+
+.left a {
+    padding-left: 7px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1 a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0;
+}
+
+h3 a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+h3 a:visited {
+    color: white;
+    text-decoration: none;
+}
